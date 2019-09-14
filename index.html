@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="header">
+        <h1 class="titulo"> Ada Online</h1>
+        <div class="container">
+            <p class="item"> <a href="#porfolio">PORFOLIO</a></p>
+            <p class="item"><a href="#About"> ABOUT</a></p>
+            <p class="item"><a href="#Contact">CONTACT</a></p>
+        </div>
+
+    </nav>
+
+
+    <section class="section">
+
+        <div><img src="./img/foto.svg" alt="Logo"></div>
+
+        <h2 class="titulosec"> HTML Y CSS</h2>
+        <h3 class="parrafo">Aprendiendo las bases de front end</h3>
+
+    </section>
+
+    <section class="Porfolio" id="porfolio">
+
+        <h2>Porfolio</h2>
+
+        <div>
+            <img src="./img/cabin.png" alt="Cabin">
+            <img src="./img/cake.png" alt="Cake">
+            <img src="./img/circus.png" alt="Circus">
+        </div>
+
+        <div>
+            <img src="./img/game.png" alt="game">
+            <img src="./img/safe.png" alt="safe">
+            <img src="./img/submarine.png" alt="submarine">
+        </div>
+
+
+    </section>
+
+    <section class="About" id="About">
+
+        <article>
+            <h2>About</h2>
+
+            <div class="texto1">
+                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
+                source
+                files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+
+            </div>
+            <div class="texto2">
+                You can create your own custom avatar for the masthead, change the icon in the dividers, and add your
+                email
+                address to the contact form to make it fully functional!
+
+            </div>
+        </article>
+        <div>
+            <button>Free download!</button>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+
+        <h2>Contacto</h2>
+
+
+        <form action="/contact" method="GET">
+
+            <label>
+                <input required type="text" placeholder="Nombre" name="name">
+            </label>
+            <label>
+                <input required type="text" placeholder="Apellido" name="Apellido">
+            </label>
+            <label>
+                <input type="email" placeholder="Correo electronico" name="email">
+            </label>
+            <label>
+                <input type="number" placeholder="Celular" name="celular">
+            </label>
+            <label>
+            <textarea rows="4" cols="50" placeholder="Mensaje" name="text area"></textarea>
+            </label>
+
+            <input type="submit" name="Enviar">
+
+            </form>
+
+
+    </section>
+
+    <footer>Copyright © Your Website 2019</footer>
+
+
+</body>
+
+</html>
